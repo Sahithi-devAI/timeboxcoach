@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/blockTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instagram is blocked"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/blockSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Allowed between 5:00–5:30 PM.\nIf you believe this is an exception worth making, explain why."
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_marginTop="12dp" />
+
+    <Button
+    android:id="@+id/explainButton"
+    android:text="Explain / Request Access"
+    android:layout_marginTop="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
