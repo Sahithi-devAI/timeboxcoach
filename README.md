@@ -10,7 +10,7 @@ Not a passive timer. A mirror.
 
 You pick an app to block (Instagram, YouTube, LinkedIn, anything) and set a narrow allowed window (e.g. 5:00–5:30 PM). Outside that window, opening the app shows a full-screen overlay asking:
 
-> **Why can't this wait until you're at your computer?**
+> **Why can't this wait?**
 
 You type a reason. The app logs it. Access stays blocked.
 
@@ -26,7 +26,6 @@ This app went through three stages before landing here:
 - **Stage 2** — Keyword evaluator. Long-term signals like `deadline`, `health`, `urgent` unlocked 5 minutes of access. Within a week the app was getting reasons like *"for job search which is crucial"* typed by someone who wanted to watch YouTube. Lesson: asking "why do you want in?" has infinite acceptable answers.
 - **Stage 3 (current)** — No approval. The question changed to *"why can't this wait until you're at your computer?"* There's nowhere to negotiate with that. The logs are honest because there's no reward for gaming them.
 
-Read the full story: [link to article]
 
 ---
 
