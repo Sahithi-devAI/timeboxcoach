@@ -6,32 +6,43 @@
     android:background="#F2F2F2">
 
     <TextView
-        android:text="Instagram is blocked"
+        android:id="@+id/reasonTitle"
+        android:text="App is blocked"
         android:textSize="22sp"
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:text="If this is an exception, explain why."
+        android:text="Your phone is not the right tool for this. If it genuinely can't wait, use your computer."
         android:layout_marginTop="12dp"
         android:textSize="16sp"
+        android:textColor="#555555"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/reasonInput"
-        android:hint="Why do you want access right now?"
+        android:hint="Why can't this wait until you're at your computer?"
         android:layout_marginTop="24dp"
         android:minLines="4"
         android:gravity="top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <TextView
+        android:id="@+id/feedbackText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
     <Button
         android:id="@+id/submitReason"
         android:text="Submit"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
